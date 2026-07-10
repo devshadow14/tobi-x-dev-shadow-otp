@@ -1,0 +1,25 @@
+{
+  "name": "tobi-bot",
+  "version": "1.0.0",
+  "description": "TOBI x SHADOW OTP - Bot Telegram de vente de numéros virtuels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "sqlite3": "^5.1.6",
+    "sequelize": "^6.33.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
